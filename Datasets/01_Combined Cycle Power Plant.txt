@@ -1,0 +1,29 @@
+this dataset is a well-known one from the Combined Cycle Power Plant (CCPP) problem, often used in machine learning and regression modeling.
+
+Here’s what the columns mean:
+
+AT (Ambient Temperature) – The temperature outside in degrees Celsius.
+
+V (Exhaust Vacuum) – The vacuum (pressure) in cm Hg.
+
+AP (Ambient Pressure) – The atmospheric pressure in millibar.
+
+RH (Relative Humidity) – The relative humidity in percentage (%).
+
+PE (Power Output / Energy Output) – The net hourly electrical energy output of the plant in megawatts (MW).
+
+Context
+
+The dataset comes from a Combined Cycle Power Plant, where electrical power is generated using gas turbines and steam turbines.
+
+The goal is typically to predict the plant’s energy output (PE) based on the environmental conditions (AT, V, AP, RH).
+
+Usage in Machine Learning
+
+It’s commonly used for regression tasks.
+
+Researchers and practitioners apply models like Linear Regression, Random Forest, Gradient Boosting, SVR, and Neural Networks to forecast PE.
+
+The dataset is also widely used for teaching data science concepts such as feature relationships, correlation, and model evaluation.
+
+👉 In short: this dataset is about predicting how much power a combined cycle power plant produces given outside weather and environmental conditions.
